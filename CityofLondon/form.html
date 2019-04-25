@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Contact the City of London</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+	h1#form-header {
+		color: green;
+		font-weight: bold;
+	}	
+	
+	.filledBox {
+	background-color: LightGreen;
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+</style>	
+	
+</head>
+<body>	
+
+<header>
+<img src="Images/treecity.jpg" width="100%" height="300"alt="treecity"/>
+</header>
+
+<section>
+<img src="Images/City-of-London.jpg" width="250" height="250" alt="City of London" />
+<h1 id='form-header'>Contact the City of London</h1>
+</section>
+
+<ul type="bullet">		
+<li><a href="index.html" target="_BLANK">HOME</a></li>
+<li><a href="activities.html" target="_SELF">WHAT TO DO</a></li>
+<li><a href="form.html" target="_SELF">CONTACT US</a></li>
+</ul>
+
+<p>
+<div class="filledBox">Please fill out the form below and a representative will contact you within 2 business days. This is the foundation of our relationship with you.</div>
+<div class="filledBox">Alternatively, you can  also reach a Contact Centre Professional by calling 1-888-245-1212.</div>
+</p>
+
+<form>
+<fieldset>
+<legend>PERSONAL INFORMATION:</legend>
+<label for="firstname">FIRST NAME:</label><br>
+<input id="firstname" type="text" name="First Name"><br><br>
+
+<label for="lastname">LAST NAME:&nbsp;</label><br>
+<input id="lasttname" type="text" name="Last Name"><br><br>
+
+<label for="birthyear">BIRTH YEAR:</label><br>	
+<input list="BIRTH YEAR">
+  <datalist id="BIRTH YEAR">
+	<option value="1950">
+	<option value="1960">
+	<option value="1970">
+	<option value="1980">
+	<option value="1990">
+	<option value="2000">
+  </datalist>
+<br><br>
+
+<label for="gender">GENDER:</label><br>	
+<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="unknown"> Unknown
+<br><br>
+	
+<label for="email">EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br>
+<input id="email" type="email">
+<br><br>
+	
+</fieldset>
+<br>
+
+<fieldset>
+<legend>SIGN IN</legend>
+
+<div>
+<label for="username">Username:&nbsp;&nbsp;&nbsp;&nbsp;</label><br>
+<input type="text" id="username" name="username"required />
+</div>
+<br>
+<div>
+<label for="userPassword">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br>
+<input id="userPassword" type="password" required>
+</div>
+<br>
+<div>
+<label for="confirmPassword">Confirm Password: </label><br>
+<input id="userPassword" type="password" required>
+</div>
+</fieldset>
+
+<h3>Terms of Use</h3>
+<p>Your use of this site constitutes acceptance of these terms. Note that this contains provisions that may limit your rights.</p>
+
+<p><input type="checkbox" required name="terms"> I accept the Terms and Conditions</p>
+
+<input type="checkbox" name="text" value="checkbox" checked> I agree to receiving emails and newsletters.<br><br>
+
+<input type="submit" value="SUBMIT">
+
+</form>
+
+<footer>
+<p>&copy; Copyright 2019 City of London Ontario Canada</p>
+</footer>
+
+</body>
+</html>
